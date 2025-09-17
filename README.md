@@ -39,7 +39,10 @@ knowledgequest-ai/
 ├─ .gitignore            # Ignore .env, __pycache__, etc.
 └─ README.md             # Project documentation
  
+## Demo Video
 
-https://github.com/user-attachments/assets/2570fe1c-8b98-4462-a072-ecfb8447fe84
+![KnowledgeQuest AI Demo](demo.mp4)
+
+
 
 
