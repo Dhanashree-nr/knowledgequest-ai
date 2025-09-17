@@ -1,17 +1,15 @@
-import os
 import json
-from dotenv import load_dotenv
+import random
+import streamlit as st
 from langchain_groq.chat_models import ChatGroq
 from langchain.schema import HumanMessage, SystemMessage
-import random
-
-load_dotenv()
 
 class AIQuizGenerator:
     def __init__(self, model="llama-3.3-70b-versatile", temperature=0.9):
-        groq_key = os.getenv("GROQ_API_KEY")
+        # Get Groq API key from Streamlit secrets
+        groq_key = st.secrets["GROQ_API_KEY"]
         if not groq_key:
-            raise ValueError("GROQ_API_KEY not found in .env")
+            raise ValueError("GROQ_API_KEY not found in Streamlit secrets")
         self.ai = ChatGroq(model=model, temperature=temperature)
 
     def create_quiz(self, topic, difficulty, num_questions):
