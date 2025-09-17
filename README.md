@@ -38,10 +38,10 @@ knowledgequest-ai/
 │   └─ secrets.toml      # Groq API key (not tracked in Git)
 ├─ .gitignore            # Ignore .env, __pycache__, etc.
 └─ README.md             # Project documentation
- 
+---
 ## Demo Video
 
-![KnowledgeQuest AI Demo](demo.mp4)
+![KnowledgeQuest AI Demo](demo.gif)
 
 
 
