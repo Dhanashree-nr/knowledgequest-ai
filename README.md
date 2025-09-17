@@ -1,6 +1,3 @@
-Absolutely! Here's everything you posted, fully converted into **proper Markdown** for a README, ready to paste into `README.md`:
-
-````markdown
 # KnowledgeQuest AI
 ✨ Test your knowledge on any topic with AI-generated quizzes and get instant feedback! 🚀
 
@@ -34,7 +31,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/Dhanashree-nr/knowledgequest-ai.git
 cd knowledgequest-ai
-````
+
 
 Create a virtual environment (optional but recommended):
 
