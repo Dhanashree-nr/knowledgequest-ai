@@ -38,3 +38,5 @@ knowledgequest-ai/
 │   └─ secrets.toml      # Groq API key (not tracked in Git)
 ├─ .gitignore            # Ignore .env, __pycache__, etc.
 └─ README.md             # Project documentation
+<img width="1808" height="653" alt="image" src="https://github.com/user-attachments/assets/eb5d8bdd-7a13-4a54-8103-bafc73c47366" />
+
