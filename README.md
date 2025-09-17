@@ -22,6 +22,8 @@ The app is built with **Python** and **Streamlit**, providing a clean, responsiv
 ---
 
 ## Demo
+![KnowledgeQuest AI Demo](demo.gif)
+
 Try the live app here: [KnowledgeQuest AI](https://knowledgequest-ai-tsvwydecujwsmynxda8okh.streamlit.app)
 
 ---
@@ -38,11 +40,3 @@ knowledgequest-ai/
 │   └─ secrets.toml      # Groq API key (not tracked in Git)
 ├─ .gitignore            # Ignore .env, __pycache__, etc.
 └─ README.md             # Project documentation
----
-## Demo Video
-
-![KnowledgeQuest AI Demo](demo.gif)
-
-
-
-
